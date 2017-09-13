@@ -1,16 +1,19 @@
 {
   "name": "codegenerator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "generates starting code with controller,service,css & test",
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "preferGlobal": true,  
+  "preferGlobal": true,
   "bin": {
     "coddy": "bin/coddy.js"
   },
   "author": "Suchan Badyakar <suchan211@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^4.0.2"
+  }
 }

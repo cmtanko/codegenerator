@@ -23,6 +23,12 @@ Enter the name of component(type help for help)
 To generate files: generate <stack(node/angular)> <filename>For eg. entering "generate student" will generate student.controller.js,student.service.js, student.service.spec.js
 To exit: exit
 
+> nodegen
+ Node project created successfully!Follow the following steps next.. 
+ cd my-app
+ sudo npm install 
+ npm run dev 
+
 > generate node student 
 student.controller.js created successfully !
 student.service.js created successfully !

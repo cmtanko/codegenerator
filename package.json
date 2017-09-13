@@ -1,6 +1,6 @@
 {
   "name": "codegenerator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "generates starting code with controller,service,css & test",
   "main": "lib/index.js",
   "scripts": {

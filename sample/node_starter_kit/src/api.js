@@ -29,7 +29,7 @@ app.get('/swagger.json', (req, res) => {
 
 app.get('/', (req, res) => {
   res.send(
-    '<h1>Started...</h1><br><a href="http://localhost:3000/api-docs" target="_blank"> Documentation </a>'
+    '<h1>Welcome, Node Starter Kit...</h1>Example API:<br> /api/students <br>/api/students/1 <br><br> <a href="http://localhost:3000/api-docs" target="_blank"> Documentation </a><br><br><br><br><br><h4><a href="https://suchancode.blogspot.com" target="_blank">@Suchan Badyakar</a></h4><br>'
   );
 });
 

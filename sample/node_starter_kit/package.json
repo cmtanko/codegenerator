@@ -1,6 +1,6 @@
 {
   "name": "my_app",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/api.js",
   "scripts": {
@@ -9,8 +9,8 @@
     "prestart": "npm run lint --silent",
     "lint": "eslint src && npm run test",
     "precommit": "npm run lint --silent",
-    "compile": "babel -d ./dist ./src -s",
-    "dev": "npm run compile && nodemon --watch dist --watch src",
+    "build": "babel -d ./dist ./src -s",
+    "dev": "nodemon src/api.js --exec babel-node src/api.js",
     "stop": "pm2 stop api",
     "test": "mocha './test/**/*.spec.js'"
   },

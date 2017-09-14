@@ -16,6 +16,8 @@ node bin/coddy.js
 ```
 ### How to use
 ```sh
+> npm install -g codegenerator
+
 > node bin/coddy.js
 
 Enter the name of component(type help for help)

@@ -41,6 +41,12 @@ student.controller.js created successfully !
 student.service.js created successfully !
 student.sevice.spec.js created successfully !
 
+> specs service git /sevices/gitService.js
+git.service.spec.js created successfully !
+
+> specs controller git /controllers/gitController.js
+git.controller.spec.js created successfully !
+
 > exit
 ```
 ### Contribution

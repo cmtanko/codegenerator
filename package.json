@@ -1,6 +1,6 @@
 {
   "name": "codegenerator",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "generates starting code with controller,service,css & test",
   "main": "lib/index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "dependencies": {
     "app-root-path": "^2.0.1",
     "color": "^2.0.0",
+    "colors": "^1.1.2",
     "fs-extra": "^4.0.2",
     "require.async": "^0.1.1"
   }

@@ -1,13 +1,11 @@
-var chaiAsPromised = require("chai-as-promised");
-var chai = require("chai");
-
-var sinon = require('sinon');
-var PassThrough = require('stream').PassThrough;
-var http = require('https');
-var rewire = require('rewire');
-
-var Ctrl = rewire('***/###Controller');
-var ###Controller = Ctrl();
+let chaiAsPromised = require('chai-as-promised');
+let chai = require('chai');
+let sinon = require('sinon');
+let PassThrough = require('stream').PassThrough;
+let http = require('https');
+let rewire = require('rewire');
+let Ctrl = rewire('***/###Controller');
+let ###Controller = Ctrl();
 
 chai.use(chaiAsPromised);
 chai.should();

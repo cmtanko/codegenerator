@@ -16,8 +16,6 @@ node bin/coddy.js
 ```
 ### How to use
 ```sh
-> npm install -g codegenerator
-
 > node bin/coddy.js
 
 Enter the name of component(type help for help)
@@ -30,6 +28,9 @@ To exit: exit
  cd my-app
  sudo npm install 
  npm run dev 
+
+> sudo npm install -g codegenerator
+> coddy
 
 > generate node student 
 student.controller.js created successfully !
